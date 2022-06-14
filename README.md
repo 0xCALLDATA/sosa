@@ -21,7 +21,7 @@ The magnitude of an attestation can be used to represent the strength of the dec
 
 Attestation types can be permisionlessly generated. A description of the claim made by the attestation type and the meaning of its magnitude is written on chain when a new type is created. Parties have an incentive to use existing attestation types instead of creating duplicates because their claims benefit from network effects when joining sets of attestations that already have social buy-in.
 
-## Sosa is a multigraph
+## The protocol
 
 Sosa's underlying data structure is a weighted directed multigraph where each node is a party represented by an Ethereum address. Each edge is an attestation from an attester to a recipient and is labeled by an attestation type with the magnitude as its weight. 
 
