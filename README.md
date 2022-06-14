@@ -29,5 +29,5 @@ By selecting the edges for a specific attestation type, you can isolate a single
 
 The smart contract implementation of Sosa can be [viewed here](Sosa.sol).
 
-The open nature of Sosa means edges can be written as spam or with the intent to mislead. It is the responsibility of data consumers to apply their own data sanitization techniques when performing analysis. Some of these sanitization techniques may rely on Sosa itself i.e. creating an attestation graph G where parties declaring other parties can be trusted to provide attestations, selecting nodes in G you have prior trust in, and filtering other graphs to nodes which received attestations in G from your trusted nodes.
+The open nature of Sosa means edges can be written as spam or with the intent to mislead. It is the responsibility of data consumers to apply their own data sanitization techniques when performing analysis. Some of these sanitization techniques may rely on Sosa itself i.e. creating an attestation graph G where parties declare other parties can be trusted to provide attestations, selecting nodes in G you have prior trust in, and filtering other graphs to nodes which received attestations in G from your trusted nodes.
 
